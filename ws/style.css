@@ -1,0 +1,37 @@
+html{
+    font-size:13pt;
+}
+body{
+    margin:5mm;
+    padding: 5mm;
+}
+table{
+    margin:5mm;
+    background-color:rgb(221, 240, 248);
+    border-color:  rgb(163, 163, 163); 
+    /* border-collapse: collapse; */
+    border: 0.95mm rgb(0,0,0) solid; 
+}
+td{
+    padding:0.5mm;
+    text-align: center;
+    font-weight:bold;
+    width:10mm;
+    height:10mm;
+    border: 1px solid rgb(204, 204, 204);
+    /* border-collapse: collapse; */
+}
+
+#words{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(6, 2ex);
+    grid-template-columns: repeat(5,1fr);
+}
+.page{
+    max-width:8in;
+    max-height: 10in;
+}
+.noshow{
+    display: none;
+}
